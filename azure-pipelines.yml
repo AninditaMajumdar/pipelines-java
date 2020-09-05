@@ -12,7 +12,7 @@ pr:
 strategy:
   matrix:
     image: 
-      imageName: "ubuntu-16.04"
+      imageName: "vs2017-win2016"
 pool:
   vmImage: $(imageName)
 
